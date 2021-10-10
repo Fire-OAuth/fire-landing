@@ -123,3 +123,70 @@ body {
 	padding-top: 1.25rem;
 	font-size: 3rem;
 }
+
+.dividerHillOne {
+	background: url(/assets/images/dividerhill.svg) no-repeat center center;
+	height: 100px;
+	width: 100%;
+	background-size: cover;
+}
+
+.easyForDevelopers {
+	background-color: #9c88ff;
+}
+
+.easySectionContainer {
+	max-width: 900px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.easySectionContainer .easyTitle {
+	padding: 34px;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+	text-align: center;
+}
+
+.easySectionContainer .pointsHolder {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	font-size: 1.4rem;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+	.easySectionContainer .pointsHolder {
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 30em) {
+	.easySectionContainer .pointsHolder {
+		justify-content: center;
+	}
+}
+
+.easySectionContainer .infoContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20px;
+	max-width: 300px;
+}
+
+.easySectionContainer .infoContainer .infoTitle{
+	font-size: 2rem;
+	font-weight: 400;
+	padding-bottom: 1rem;
+}
+
+.easySectionContainer .pointsHolder .imageContainer img{
+	height: 200px;
+}
