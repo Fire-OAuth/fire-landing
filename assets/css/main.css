@@ -190,3 +190,70 @@ body {
 .easySectionContainer .pointsHolder .imageContainer img{
 	height: 200px;
 }
+
+.secondDivision {
+	background: url(/assets/images/secondDivision.svg) no-repeat center center;
+	height: 240px;
+	width: 100%;
+	background-size: cover;
+}
+
+.faqs {
+	background-color: #171a1c;
+	color: #e3e6e8;
+}
+
+.faqContainer {
+	max-width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.faqHeading {
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+	font-weight: 500;
+	margin-bottom: 2.4225rem;
+	padding: 10px;
+}
+
+.faqsHolder {
+	display: flex;
+	gap: 1.14rem;
+	justify-content: space-evenly;
+}
+
+.faq {
+	background-color: #1E2224;
+	padding: 38.76px;
+	width: 280px;
+	display: flex;
+	flex-direction: column;
+	background-origin: padding-box;
+	border-radius: 16px;
+	font-size: 1.0625rem;
+}
+
+.faq .faqTitle span {
+	line-height: 25px;
+	text-align: left;
+}
+
+.faq .faqContent {
+	margin-block-start: 17px;
+	line-height: 25px;
+}
+
+@media (max-width: 69.3125em) {
+	.faqsHolder {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.faqsHolder .faq {
+		width: 75%;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+}
