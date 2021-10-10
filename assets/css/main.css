@@ -250,6 +250,47 @@ body {
 	line-height: 25px;
 }
 
+.finalDiv {
+	background: url(/assets/images/finaldiv.svg) no-repeat center center;
+	height: 240px;
+	width: 100%;
+	background-size: cover;
+}
+
+.footer {
+	background-color: #4285f4;
+	padding: 5vh 0;
+}
+
+.buttonsContainer {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.buttonsContainer a {
+	text-decoration: none;
+}
+
+.buttonsContainer button {
+	font-size: 1.2rem;
+	cursor: pointer;
+	font-weight: 500;
+	padding: 8px;
+	border-radius: 5px;
+	border: 0;
+	color: #1a73e8;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.buttonsContainer img {
+	height: 1.2rem;
+}
+
 @media (max-width: 69.3125em) {
 	.faqsHolder {
 		display: flex;
