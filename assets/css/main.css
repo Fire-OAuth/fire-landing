@@ -7,6 +7,9 @@ html, body {
 
 .header {
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logoHolder a {
@@ -35,4 +38,23 @@ html, body {
     left: 50%;
     z-index: -1;
     transform: translate(-50%, -50%);
+}
+
+.getAPI {
+    height: 30px;
+    line-height: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding: 3px 8px;
+    font-weight: 600;
+    box-shadow: 0 0 20px 3px #44444444;
+    cursor: pointer;
+    outline: none;
+}
+
+.getAPI:hover {
+    transform:scale(1.05,1.05);
+    -webkit-transform:scale(1.05,1.05);
+    -moz-transform:scale(1.05,1.05);
+    transition: all 0.2s linear;
 }
