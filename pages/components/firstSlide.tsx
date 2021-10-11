@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 						One click passwordless private and secure authentication
 					</span>
 					<div className="getAPIDIV">
-						<a href="/developers.html">
+						<a href="https://fire-register.netlify.app">
 							<button className="getAPI">Get your API</button>
 						</a>
 					</div>

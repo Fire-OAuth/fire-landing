@@ -7,13 +7,13 @@ const Home: NextPage = () => {
 		<>
 			<div className="footer">
 				<div className="buttonsContainer">
-					<a href="/developers.html">
+					<a href="https://fire-register.netlify.app">
 						<button>
 							<img src="/code.svg" alt="developer" />
 							<span>For Developers</span>
 						</button>
 					</a>
-					<a href="/users.html">
+					<a href="https://firepwa.netlify.app/">
 						<button>
 							<img src="/user.svg" alt="user" />
 							<span>For Users</span>
@@ -40,6 +40,7 @@ const Home: NextPage = () => {
 					display: flex;
 					flex-wrap: wrap;
 					justify-content: space-evenly;
+					gap: 10px;
 				}
 
 				.buttonsContainer a {
