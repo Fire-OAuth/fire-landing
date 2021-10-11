@@ -4,6 +4,7 @@ import Image from "next/image"
 import FirstSlide from "./components/firstSlide"
 import SecondSlide from "./components/secondSlide"
 import ThirdSlide from "./components/thirdSlide"
+import FourthSlide from "./components/fourthSlide"
 
 const Home: NextPage = () => {
 	return (
@@ -14,6 +15,8 @@ const Home: NextPage = () => {
 			<div className="dividerHillOne"></div>
 			<ThirdSlide />
 			<div className="secondDivision"></div>
+			<FourthSlide />
+			<div className="finalDiv"></div>
 
 			<style jsx global>{`
 				@font-face {
@@ -53,12 +56,19 @@ const Home: NextPage = () => {
 					width: 100%;
 					background-size: cover;
 				}
-        .secondDivision {
-          background: url(/secondDivision.svg) no-repeat center center;
-          height: 310px;
+				.secondDivision {
+					background: url(/secondDivision.svg) no-repeat center center;
+					height: 310px;
+					width: 100%;
+					background-size: cover;
+				}
+        .finalDiv {
+          background: url(/finaldiv.svg) no-repeat center center;
+          height: 240px;
           width: 100%;
           background-size: cover;
         }
+        
 			`}</style>
 		</>
 	)
