@@ -2,12 +2,15 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import FirstSlide from './components/firstSlide'
+import SecondSlide from './components/secondSlide'
 
 const Home: NextPage = () => {
   return (
     <>
       <div className="firstThing"></div>
       <FirstSlide />
+      <SecondSlide />
+      <div className="dividerHillOne"></div>
 
       
       
@@ -42,7 +45,13 @@ const Home: NextPage = () => {
           left: 50%;
           z-index: -1;
           transform: translate(-50%, -50%);
-        }                
+        }    
+        .dividerHillOne {
+          background: url(/dividerhill.svg) no-repeat center center;
+          height: 100px;
+          width: 100%;
+          background-size: cover;
+        }            
       
       `}</style>
     </>
