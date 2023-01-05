@@ -10,6 +10,10 @@ import FifthSlide from "./components/fifthSlide"
 const Home: NextPage = () => {
 	return (
 		<>
+			<Head>
+				<title>Fire OAuth</title>
+				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+			</Head>
 			<div className="firstThing"></div>
 			<FirstSlide />
 			<SecondSlide />
